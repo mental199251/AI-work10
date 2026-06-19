@@ -178,6 +178,22 @@ python code/show_cifar10_ddpm.py \
   --cifar-archive /path/to/cifar-10-python.tar.gz
 ```
 
+若基础配置生成效果较差，使用完整数据集和更大模型重新训练高质量版本：
+
+```bash
+python code/train_cifar10_ddpm.py \
+  --config configs/cifar10_quality.json \
+  --cifar-archive /path/to/cifar-10-python.tar.gz
+
+python code/show_cifar10_ddpm.py \
+  --checkpoint outputs/cifar10_quality/latest.pt \
+  --output-dir outputs/cifar10_quality_results \
+  --sampler ddim \
+  --sampling-steps 250
+```
+
+该配置使用全部50,000张训练图、300轮、1,000个扩散步和64个基础通道。建议在24GB显存GPU上使用`batch_size=128`；显存不足时只减小batch size，不修改其他参数。
+
 ## 9. 一键运行
 
 核心实验：
