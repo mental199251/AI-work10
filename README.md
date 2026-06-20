@@ -194,6 +194,22 @@ python code/show_cifar10_ddpm.py \
 
 该配置使用全部50,000张训练图、300轮、1,000个扩散步和64个基础通道。建议在24GB显存GPU上使用`batch_size=128`；显存不足时只减小batch size，不修改其他参数。
 
+若要求单卡RTX 4090尽量在1小时内完成，使用折中配置：
+
+```bash
+python code/train_cifar10_ddpm.py \
+  --config configs/cifar10_1h.json \
+  --cifar-archive /path/to/cifar-10-python.tar.gz
+
+python code/show_cifar10_ddpm.py \
+  --checkpoint outputs/cifar10_1h/latest.pt \
+  --output-dir outputs/cifar10_1h_results \
+  --sampler ddim \
+  --sampling-steps 100
+```
+
+该配置仍使用全部50,000张训练图，但缩短为60轮、48个基础通道和500个扩散步，并将训练预览降低为每10轮一次。
+
 ## 9. 一键运行
 
 核心实验：
