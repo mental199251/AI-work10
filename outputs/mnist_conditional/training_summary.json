@@ -1,0 +1,7 @@
+{
+  "epochs_completed": 30,
+  "best_loss": 0.031155310410261153,
+  "total_seconds_this_run": 207.3296607322991,
+  "parameter_count": 1981825,
+  "checkpoint": "/root/AI-work10/outputs/mnist_conditional/latest.pt"
+}

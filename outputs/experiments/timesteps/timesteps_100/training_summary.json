@@ -1,0 +1,7 @@
+{
+  "epochs_completed": 20,
+  "best_loss": 0.05744533108472824,
+  "total_seconds_this_run": 77.2834931043908,
+  "parameter_count": 1980417,
+  "checkpoint": "/root/AI-work10/outputs/experiments/timesteps/timesteps_100/latest.pt"
+}

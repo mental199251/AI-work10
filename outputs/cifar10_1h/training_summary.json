@@ -1,0 +1,7 @@
+{
+  "epochs_completed": 60,
+  "best_loss": 0.06126208919763565,
+  "total_seconds_this_run": 507.344678116031,
+  "parameter_count": 4452291,
+  "checkpoint": "/root/AI-work10/outputs/cifar10_1h/latest.pt"
+}

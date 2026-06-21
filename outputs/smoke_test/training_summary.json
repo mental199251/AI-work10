@@ -1,0 +1,7 @@
+{
+  "epochs_completed": 1,
+  "best_loss": 1.0296291410923004,
+  "total_seconds_this_run": 1.0685836607590318,
+  "parameter_count": 124929,
+  "checkpoint": "/root/AI-work10/outputs/smoke_test/latest.pt"
+}

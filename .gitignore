@@ -3,8 +3,6 @@ __pycache__/
 .pytest_cache/
 .venv/
 data/
-outputs/*
-!outputs/.gitkeep
 *.pt
 *.pth
 .DS_Store

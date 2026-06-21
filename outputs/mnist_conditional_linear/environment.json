@@ -1,0 +1,8 @@
+{
+  "python": "3.12.9",
+  "platform": "Linux-5.15.0-94-generic-x86_64-with-glibc2.35",
+  "torch": "2.7.0+cu128",
+  "cuda_available": true,
+  "cuda_version": "12.8",
+  "cuda_device": "NVIDIA GeForce RTX 4090"
+}

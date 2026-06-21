@@ -1,0 +1,11 @@
+{
+  "checkpoint": "/root/AI-work10/outputs/mnist_conditional/latest.pt",
+  "sampling_steps": 50,
+  "samples_per_class": 5,
+  "guidance_scales": [
+    0.0,
+    1.0,
+    2.0,
+    4.0
+  ]
+}

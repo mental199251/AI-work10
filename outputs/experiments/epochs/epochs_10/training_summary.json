@@ -1,0 +1,7 @@
+{
+  "epochs_completed": 10,
+  "best_loss": 0.050253645718097685,
+  "total_seconds_this_run": 38.02530319523066,
+  "parameter_count": 1980417,
+  "checkpoint": "/root/AI-work10/outputs/experiments/epochs/epochs_10/latest.pt"
+}

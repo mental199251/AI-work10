@@ -1,0 +1,7 @@
+{
+  "epochs_completed": 20,
+  "best_loss": 0.0493282646894455,
+  "total_seconds_this_run": 43.697705631144345,
+  "parameter_count": 1980417,
+  "checkpoint": "/root/AI-work10/outputs/experiments/max_train_samples/samples_5000/latest.pt"
+}
